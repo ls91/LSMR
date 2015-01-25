@@ -1,3 +1,11 @@
-backend/.gradle/*
-backend/build/*
-backend/gradle/*
+backend/.gradle
+backend/build
+backend/gradle
+
+api/.gradle
+api/build
+api/gradle
+api/bin
+api/.classpath
+api/.project
+api/.settings
