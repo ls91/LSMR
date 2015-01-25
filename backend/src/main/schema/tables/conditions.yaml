@@ -1,0 +1,23 @@
+databaseChangeLog:
+    - changeSet:
+        id: 1
+        author: luke
+        changes:
+        - createTable:
+            tableName: conditions
+            remarks: Stores the different conditions a livery can be finished in.
+            columns:
+                - column:
+                    name: id
+                    type: int
+                    autoIncrement: true
+                    remarks: Unique ID for each condition
+                    constraints:
+                        primaryKey: true
+                        nullable: false
+                - column:
+                    name: name
+                    type: varchar(255)
+                    remarks: Full Name of the condition
+                    constraints:
+                        nullable: false

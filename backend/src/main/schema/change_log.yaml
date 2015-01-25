@@ -1,0 +1,3 @@
+databaseChangeLog:
+    - include:
+        file: src/main/schema/tables/conditions.yaml
